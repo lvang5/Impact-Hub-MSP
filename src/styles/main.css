@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    background: #EBEBEB;
+}
+
+.instructions h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.instructions {
+    background-color: #b2dfdb
+
+    ;
+    padding: 5px;
+    color: #ece7e7;
+}
+
+form {
+    background-color: #dbd5d5;
+    width: 30%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin: 10px;
+}
+
+.message {
+    padding: 10px 0;
+}
+
+.message p {
+    margin-left: 10px;
+}
+
+.message:nth-child(odd) {
+     background-color: #eeeeee;
+}
+
+.message:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.navbar {
+  background-color: #b2dfdb;
+  width: 100%;
+  border-radius: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+    color: #eee;
+}
+
+
+
+.container{
+    width: 500px;
+    
+
+}
+.input__control{
+    height: 100px;
+}
+
+.input__value-container{
+    height: 100px;
+}
+
+.input__option {
+    height: 100px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+}
+
+.dialogContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 700px;
+}
+.modolImg {
+    width: 150px;
+    height: 150px;
+}
+
+.buttonContainer {
+    height: 50px;
+}
+
+

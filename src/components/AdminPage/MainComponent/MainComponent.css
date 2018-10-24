@@ -1,0 +1,80 @@
+html, body{
+    color: #37474f;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#groupCheck-InForm{
+    background-color: transparent;
+}
+.paper{
+    text-align: center;
+    padding: 1vh;
+    margin: 8px;
+}
+.paperCards{
+    display: flex;
+    margin: 7px;;
+    width: 95%;
+}
+#adminView{
+    height: 100%;
+    width: 100%;
+}
+.viewContainer{
+    overflow: scroll;
+}
+.masonry-layout_column{
+    display: inline-block;
+
+}
+.leftColumn{
+    width: 25%;
+    float: left;
+}
+.centerColumn{
+    width: 50%;
+    float: center;
+    text-align: center;
+}
+.rightColumn{
+    width: 25%;
+    float: right;
+}
+.masonry-layout_panel {
+    break-inside: avoid;
+    padding: 5px;
+}
+.masonry-layout__panel-content {
+    padding: 10px;
+    border-radius: 10px;
+}
+.subColumnHalf{
+    display: inline-block;
+    width: 50%;
+}
+tr:nth-child(even) {
+    background: rgba(204, 204, 204, 0.527)
+}
+tr:nth-child(odd) {
+    background: #FFF
+}
+#townHallContainer{
+    height: 75vh;
+    overflow: scroll;
+}
+.middleTwo{
+    height: 60vh;
+    display: inline-flex;
+}
+.pieHolder{
+    min-height: 40vh;
+}
+a {
+     color: black; 
+     text-decoration: none !important;
+}
+
+
+
