@@ -101,64 +101,91 @@ CREATE UNIQUE INDEX "twilioLogin_pkey" ON "twilioLogin"(admin_name text_ops);
 
 INSERT INTO "public"."members"("id","name","company","img_url","cobot_id")
 VALUES
-(38501,E'Julia',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/1ad9ab846758163c764b08daab701fd0/xlarge_e6fef707a8f30c1d46f62409671c6e0dd1b2b857fc485bd
+(38501,E'Julia',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+1ad9ab846758163c764b08daab701fd0/xlarge_e6fef707a8f30c1d46f62409671c6e0dd1b2b857fc485bd
 0a1f0a5423217e764.jpg',E'1ad9ab846758163c764b08daab701fd0'),
-(38502,E'Dane',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/15a334a41abaa32c7a9407711715a3bf/xlarge_577550046f2b1ee51d587ab4f1dbed752d6f542b8db2b92
+(38502,E'Dane',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+15a334a41abaa32c7a9407711715a3bf/xlarge_577550046f2b1ee51d587ab4f1dbed752d6f542b8db2b92
 e413cb5279bce46e2.jpeg',E'15a334a41abaa32c7a9407711715a3bf'),
-(38503,E'Ahmed',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/15a334a41abaa32c7a94077117aa3731/xlarge_ea6a07c5a0a9fe857235c3dc086c51bb8656ef1febc7b9b
+(38503,E'Ahmed',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+15a334a41abaa32c7a94077117aa3731/xlarge_ea6a07c5a0a9fe857235c3dc086c51bb8656ef1febc7b9b
 2118bffaf426652b5.jpg',E'15a334a41abaa32c7a94077117aa3731'),
-(38504,E'Travis',E'Cogent',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/1ad9ab846758163c764b08daab6f4595/xlarge_56cd1f0e099f9122a34c7a7db429c86956418025186e8a9
+(38504,E'Travis',E'Cogent',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+1ad9ab846758163c764b08daab6f4595/xlarge_56cd1f0e099f9122a34c7a7db429c86956418025186e8a9
 c5030e82dc3495371.jpg',E'1ad9ab846758163c764b08daab6f4595'),
-(38505,E'Kris',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/726b3dbf05db5de2fe4593deec1e2267/xlarge_d4baf17243663c61c9a9dcc21e00f231f4dd9663324892c
+(38505,E'Kris',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+726b3dbf05db5de2fe4593deec1e2267/xlarge_d4baf17243663c61c9a9dcc21e00f231f4dd9663324892c
 7e863c35bac72a658.jpeg',E'726b3dbf05db5de2fe4593deec1e2267'),
-(38506,E'Lars',E'Ecotone',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/7c91c274ea396c7b25bb34f8eac0fc58/xlarge_40383d297ef8ec42981f74c421800570d6d55b8d3f7d6e8
+(38506,E'Lars',E'Ecotone',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+7c91c274ea396c7b25bb34f8eac0fc58/xlarge_40383d297ef8ec42981f74c421800570d6d55b8d3f7d6e8
 577c7edd056725689.jpg',E'7c91c274ea396c7b25bb34f8eac0fc58'),
-(38507,E'Remmie',E'Cogent',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/7c91c274ea396c7b25bb34f8eac14b34/xlarge_952e3a3bd6f2d528f030840397f7586e4fc7d681fe2470a
+(38507,E'Remmie',E'Cogent',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+7c91c274ea396c7b25bb34f8eac14b34/xlarge_952e3a3bd6f2d528f030840397f7586e4fc7d681fe2470a
 e868f3cc4d69d7e42.jpg',E'7c91c274ea396c7b25bb34f8eac14b34'),
-(38508,E'Ally',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/7c91c274ea396c7b25bb34f8eac1dd93/xlarge_9587ad28ccece8ee6b19e08e2708759fead130bad139095
+(38508,E'Ally',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+7c91c274ea396c7b25bb34f8eac1dd93/xlarge_9587ad28ccece8ee6b19e08e2708759fead130bad139095
 35f2d4c5deba973c3.jpeg',E'7c91c274ea396c7b25bb34f8eac1dd93'),
-(38509,E'Chris',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/7c91c274ea396c7b25bb34f8eac30035/xlarge_493d3394b2c0e0a754631734ffe6c33dfb147edaf4b5f90
+(38509,E'Chris',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+7c91c274ea396c7b25bb34f8eac30035/xlarge_493d3394b2c0e0a754631734ffe6c33dfb147edaf4b5f90
 e2b57fc792d2fc7cd.jpeg',E'7c91c274ea396c7b25bb34f8eac30035'),
-(38510,E'Justin',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/9db2395e4bd4e06c460e9dd7433c3375/xlarge_097ce00bfed8b4eb5c7d1694506107f221599aebb68c145
+(38510,E'Justin',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+9db2395e4bd4e06c460e9dd7433c3375/xlarge_097ce00bfed8b4eb5c7d1694506107f221599aebb68c145
 144b5aaaf93eb0e4c.jpg',E'9db2395e4bd4e06c460e9dd7433c3375'),
-(38511,E'Jennifer',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/9db2395e4bd4e06c460e9dd7433c5a08/xlarge_d1a69cb1a56f71f4bfb577b05d3252d0b7d3a35dadf7f69
+(38511,E'Jennifer',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+9db2395e4bd4e06c460e9dd7433c5a08/xlarge_d1a69cb1a56f71f4bfb577b05d3252d0b7d3a35dadf7f69
 281d298e3177504af.jpg',E'9db2395e4bd4e06c460e9dd7433c5a08'),
-(38512,E'Abbey',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/9db2395e4bd4e06c460e9dd7433cb18c/xlarge_9c98cbd1d75de395b6d17699f67fb3fd9db2fce3f3aeb69
+(38512,E'Abbey',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+9db2395e4bd4e06c460e9dd7433cb18c/xlarge_9c98cbd1d75de395b6d17699f67fb3fd9db2fce3f3aeb69
 b4db0a64ea9db3ece.jpg',E'9db2395e4bd4e06c460e9dd7433cb18c'),
-(38513,E'Paul',E'Cogent',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/9db2395e4bd4e06c460e9dd7435c2861/xlarge_5b19db72c8594ee0d028b3b2b0e45e566d4e1bfbabaed1e
+(38513,E'Paul',E'Cogent',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+9db2395e4bd4e06c460e9dd7435c2861/xlarge_5b19db72c8594ee0d028b3b2b0e45e566d4e1bfbabaed1e
 613c88ce64e39cdce.jpg',E'9db2395e4bd4e06c460e9dd7435c2861'),
-(38514,E'Kyra',E'Ecotone',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/9db2395e4bd4e06c460e9dd7435c7fe4/xlarge_a671b85647ce7effdd4e7b37c32f4a6ae5815cb6d8b71ac
+(38514,E'Kyra',E'Ecotone',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+9db2395e4bd4e06c460e9dd7435c7fe4/xlarge_a671b85647ce7effdd4e7b37c32f4a6ae5815cb6d8b71ac
 a08c9297d26d0a4e7.jpg',E'9db2395e4bd4e06c460e9dd7435c7fe4'),
-(38515,E'Dan',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/9db2395e4bd4e06c460e9dd7435cc226/xlarge_2e37beffcd1a6105f8084e251e6dd6162949114d832ede6
+(38515,E'Dan',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+9db2395e4bd4e06c460e9dd7435cc226/xlarge_2e37beffcd1a6105f8084e251e6dd6162949114d832ede6
 8cf250d51109ec9f4.jpg',E'9db2395e4bd4e06c460e9dd7435cc226'),
-(38516,E'AJ',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/b9632a7120da185473ab2b8fd6de1b0c/xlarge_141b206766b497207a41df37be5db50fc752c52a525c8f1
+(38516,E'AJ',E'Software for Good',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+b9632a7120da185473ab2b8fd6de1b0c/xlarge_141b206766b497207a41df37be5db50fc752c52a525c8f1
 2bf288eda60c059e6.jpg',E'b9632a7120da185473ab2b8fd6de1b0c'),
-(38517,E'Dev',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/b9632a7120da185473ab2b8fd6df4b68/xlarge_f6c9672b1d102c9c2fe5f56d39d6f355d589317965f21e9
+(38517,E'Dev',E'Sustainable Farming Association',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+b9632a7120da185473ab2b8fd6df4b68/xlarge_f6c9672b1d102c9c2fe5f56d39d6f355d589317965f21e9
 93e5e16745b07eb35.png',E'b9632a7120da185473ab2b8fd6df4b68'),
-(38518,E'Jakeh',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/4799bbc6c7f9047b3953a270fb6b46a0/xlarge_9772099d42e74f588cc7bb02d1f4168e90954643a810693
+(38518,E'Jakeh',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo
+/4799bbc6c7f9047b3953a270fb6b46a0/xlarge_9772099d42e74f588cc7bb02d1f4168e90954643a810693
 7a8c79a7051bf4982.jpg',E'4799bbc6c7f9047b3953a270fb6b46a0'),
-(38519,E'Issac',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/1ad9ab846758163c764b08daab705ed0/xlarge_068f73ff0d13ad4cb7d9ed756f2e0916e021aa242adcf15
+(38519,E'Issac',E'Finnegan\'s Brew Co.',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+1ad9ab846758163c764b08daab705ed0/xlarge_068f73ff0d13ad4cb7d9ed756f2e0916e021aa242adcf15
 f24d379030f620725.jpg',E'1ad9ab846758163c764b08daab705ed0'),
-(38520,E'Lais',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/4799bbc6c7f9047b3953a270fb6b1cf8/xlarge_b7e68ed226d32c0c93fd79358e006a8015eba8b0c690e13
+(38520,E'Lais',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+4799bbc6c7f9047b3953a270fb6b1cf8/xlarge_b7e68ed226d32c0c93fd79358e006a8015eba8b0c690e13
 7d0a45cd610b8f091.jpg',E'4799bbc6c7f9047b3953a270fb6b1cf8'),
-(38521,E'Kara',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/4799bbc6c7f9047b3953a270fb6b664a/xlarge_23e94057ef6a2a3a76cdf9e1a68f75b60da8cd4d1716060
+(38521,E'Kara',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/
+4799bbc6c7f9047b3953a270fb6b664a/xlarge_23e94057ef6a2a3a76cdf9e1a68f75b60da8cd4d1716060
 9f4a0cae166e146ff.jpg',E'4799bbc6c7f9047b3953a270fb6b664a'),
-(38522,E'Mai',E'Ecotone',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/4cc92b755fc4a3180a8898e5381b19a4/xlarge_88fa06a8d6e56801fcf07b0e8e5637f631bbd78293bef94
+(38522,E'Mai',E'Ecotone',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo
+/4cc92b755fc4a3180a8898e5381b19a4/xlarge_88fa06a8d6e56801fcf07b0e8e5637f631bbd78293bef94
 c57dbc06e64330cd0.jpg',E'4cc92b755fc4a3180a8898e5381b19a4'),
-(38523,E'Sam',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo/5717a4826b719e68486dcb48c63d4fd2/xlarge_43df8b6b53f6cfe6b9873cc675f3e35b8baebebeeb65117
+(38523,E'Sam',E'Megasoft',E'https://d35ei1u0r0ivot.cloudfront.net/uploads/membership/photo
+/5717a4826b719e68486dcb48c63d4fd2/xlarge_43df8b6b53f6cfe6b9873cc675f3e35b8baebebeeb65117
 c0f560d33e072003b.jpeg',E'5717a4826b719e68486dcb48c63d4fd2');
 
 ```
 
 ### Installing
 
-Steps to get the development environment running.
+Steps to get the development environment running. In order to use APIs you will have to create an account and 
+go through the documentation to save certain keys that you will need e.g. Twilio, nodemailer, mailchimp, GMAIL. 
+Cobot API information is not necessary since the database.sql file provides you with dummy data. 
 
 1. Download this project.
 2. Set-Up DB (above)
 3. `npm install`
 4. `npm run server`
 5. `npm run client`
+6. Register for an account
+7. Sign in
 
 ## Screen Shot
 
@@ -219,6 +246,8 @@ public/images/Group admin.png
 
 - Added Styling
 - Create more interactive graphs that syncs with live data
+- Fix bugs on Check-in feature
+- Sync data with mailing list
 
 ## Authors
 
