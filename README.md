@@ -246,8 +246,9 @@ public/images/Group admin.png
 
 - Added Styling
 - Create more interactive graphs that syncs with live data
-- Fix bugs on Check-in feature
+- Fix bugs on Check-in feature, login feature, and admin
 - Sync data with mailing list
+
 
 ## Authors
 
