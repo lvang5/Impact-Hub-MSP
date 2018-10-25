@@ -140,10 +140,10 @@ Steps to get the development environment running.
 ## Screen Shot
 
 ![Landing Page](public/images/Login.png)
-![Admin Page](public/images/Group admin.png)
-![Graphs](/public/images/Screen Shot 2018-10-24 at 7.33.28 PM.png)
-![Graphs](public/images/Screen Shot 2018-10-24 at 7.33.39 PM.png)
-![Graphs](/public/images/Screen Shot 2018-10-24 at 7.33.47 PM.png)
+![Admin Page](public/images/Admin.png)
+![Graphs](/public/images/Graph1)
+![Graphs](public/images/Graph2)
+![Graphs](/public/images/Graph3)
 ![Checkin Page](public/images/Checkin.png)
 ![Visitor Page](public/images/Visitor.png)
 ![Member Page](public/images/Member.png)
