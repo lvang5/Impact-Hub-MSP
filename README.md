@@ -169,15 +169,15 @@ Steps to get the development environment running.
 
 
 
-![Checkin](/public/images/GraphCheckin)
+![Checkin](/public/images/GraphCheckin.png)
 
 
 
-![Bar](public/images/GraphBar)
+![Bar](public/images/GraphBar.png)
 
 
 
-![Pie](/public/images/GraphPie)
+![Pie](/public/images/GraphPie.png)
 
 
 
