@@ -199,13 +199,9 @@ class MemberComponent extends Component {
                 this.setState({
                     checked_in: false
                 })
-            }
-            else {
-                this.setState({
-                    checked_in: true
-                })
                 break;
             }
+
         }
     }
 
